@@ -2,11 +2,13 @@ package com.example.appfaztudo;
 
 import javafx.fxml.FXML;
 
+import java.io.IOException;
+
 public class HelloController {
 
     @FXML
-    protected void onCalcularIMCButtonClick(){
-
+    protected void onCalcularIMCButtonClick() throws IOException {
+        new JanelaIMC();
     }
 
     @FXML
