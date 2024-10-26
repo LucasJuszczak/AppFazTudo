@@ -16,7 +16,7 @@
     <TextField fx:id="textValorCelsius"/>
     <Label>Selecione a métrica para conversão</Label>
     <ComboBox fx:id="comboMetrica"/>
-    <Button>Converter</Button>
+    <Button onMouseClicked="#onConverterButtonClick">Converter</Button>
     <Label fx:id="labelResultado"/>
-    
+
 </VBox>
